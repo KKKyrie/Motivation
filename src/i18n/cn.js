@@ -25,8 +25,6 @@ export default {
   },
   message: {
     default: '点击开始',
-    readme: `<p>输入日期，看时间飞逝</p>
-        <p><strong>你输入的任何信息都不会离开你的浏览器</strong></p>
-        <p>Motivated by <a href="https://github.com/soffes/Motivation">Motivation</a></p>`
+    readme: '任何输入信息都不会离开你的浏览器'
   }
 }

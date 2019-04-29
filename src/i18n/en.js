@@ -25,8 +25,6 @@ export default {
   },
   message: {
     default: 'Click to Set Time',
-    readme: `<p>Enter a date and see how time flies</p>
-        <p><strong>No data will leave your browser</strong></p>
-        <p>Motivated by <a href="https://github.com/soffes/Motivation">Motivation</a></p>`
+    readme: 'No data will leave your browser'
   }
 }
