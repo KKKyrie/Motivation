@@ -155,9 +155,10 @@ export default {
 
 .v--modal {
   background-color: #151513 !important;
-  top: 120px !important;
+  top: 50% !important;
   height: 400px !important;
   padding: 0 10px !important;
+  transform: translateY(-50%);
 }
 
 .confirm-button-area {
