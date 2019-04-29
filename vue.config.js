@@ -12,15 +12,15 @@ let config = {
 let Offline = new OfflinePlugin({
   // https://github.com/NekR/offline-plugin/blob/master/docs/examples/SPA.md
   // Unless specified in webpack's configuration itself
-  publicPath: '/',
-  appShell: '/',
+  publicPath: './',
+  appShell: './',
   externals: [
-    '/'
+    './'
   ],
   responseStrategy: 'network-first',
   AppCache: {
     FALLBACK: {
-      '/': '/error/cache-missed'
+      './': '/error/cache-missed'
     }
   },
   excludes: ['**/.*', '**/_*', '**/*.map', '**/*.gz']
