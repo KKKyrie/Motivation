@@ -1,8 +1,8 @@
 var __wpo = {
   "assets": {
     "main": [
-      "./css/app.c6a853a7.css",
-      "./js/app.53558ebe.js",
+      "./css/app.1f16ca9a.css",
+      "./js/app.0a89d4e0.js",
       "./css/chunk-vendors.e46cb91c.css",
       "./js/chunk-vendors.7301e181.js",
       "./",
@@ -15,15 +15,15 @@ var __wpo = {
     "./"
   ],
   "hashesMap": {
-    "3af029093a3fb0a6badc3acf629fbfeb37d3f260": "./css/app.c6a853a7.css",
-    "d01d1d930a97d21c53c9cdf6baaaf9256db04aeb": "./js/app.53558ebe.js",
+    "288552505c2d0ed78a32b427a2983d8e35081ac4": "./css/app.1f16ca9a.css",
+    "e7bc30844afd034d6ff86b7694a2f9f758ad59cd": "./js/app.0a89d4e0.js",
     "ca1da07c9201fe3831c4470a5108224ed6ad78c7": "./css/chunk-vendors.e46cb91c.css",
     "5f3d1943f7a4cf9bbdd1c0a9ad5876319e831628": "./js/chunk-vendors.7301e181.js",
-    "f399ffa719742c9155c2e6ab73c36f709cdd06ff": "./"
+    "6b487e58e18d4cd225fef0954f435eede846bb60": "./"
   },
   "strategy": "changed",
   "responseStrategy": "network-first",
-  "version": "4/29/2019, 11:25:56 PM",
+  "version": "4/30/2019, 12:30:23 AM",
   "name": "webpack-offline",
   "pluginVersion": "5.0.6",
   "relativePaths": false
