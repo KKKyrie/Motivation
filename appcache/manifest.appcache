@@ -1,0 +1,17 @@
+CACHE MANIFEST
+#ver:2019-4-29 21:51:25
+#plugin:5.0.6
+
+CACHE:
+/css/app.3be052e6.css
+/js/app.e5ca3424.js
+/css/chunk-vendors.e46cb91c.css
+/js/chunk-vendors.d4c32f6a.js
+/
+/
+
+NETWORK:
+*
+
+FALLBACK:
+/ /error/cache-missed
