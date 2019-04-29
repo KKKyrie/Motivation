@@ -3,6 +3,8 @@ const OfflinePlugin = require('offline-plugin')
 let prod = (process.env.NODE_ENV === 'production')
 
 let config = {
+  publicPath: '/Motivation/',
+  assetsDir: './',
   configureWebpack: {
     plugins: []
   }
@@ -12,15 +14,15 @@ let config = {
 let Offline = new OfflinePlugin({
   // https://github.com/NekR/offline-plugin/blob/master/docs/examples/SPA.md
   // Unless specified in webpack's configuration itself
-  publicPath: '/Motivation/',
-  appShell: '/Motivation/',
+  publicPath: './',
+  appShell: './',
   externals: [
-    '/Motivation/'
+    './'
   ],
   responseStrategy: 'network-first',
   AppCache: {
     FALLBACK: {
-      '/Motivation/': '/error/cache-missed'
+      './': '/error/cache-missed'
     }
   },
   excludes: ['**/.*', '**/_*', '**/*.map', '**/*.gz']
