@@ -155,7 +155,7 @@ export default {
 
 .v--modal {
   background-color: #151513 !important;
-  top: 150px !important;
+  top: 120px !important;
   height: 400px !important;
   padding: 0 10px !important;
 }
