@@ -65,7 +65,6 @@
     </div>
     <!-- input area end -->
 
-
   </vue-modal>
 </template>
 
