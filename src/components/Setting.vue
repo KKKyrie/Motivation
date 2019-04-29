@@ -12,7 +12,7 @@
     <div class='pure-g'>
 
       <!-- year / month / date -->
-      <div class='pure-u-1-3'>
+      <div class='pure-u-1-2'>
         <form class='pure-form pure-form-stacked'>
           <fieldset class='pure-group'>
             <label for='year' class='pure-input-1 color'>{{ $t('title.date') }}</label>
@@ -35,14 +35,13 @@
               type='number'
               :placeholder='$t("placeholder.day")'
             >
-            <button type='button' @click='update' class='pure-button'>{{ $t('button.confirm') }}</button>
           </fieldset>
         </form>
       </div>
       <!-- year / month / date -->
 
       <!-- level -->
-      <div class='pure-u-1-3'>
+      <div class='pure-u-1-2'>
         <form class='pure-form pure-form-stacked'>
           <fieldset class='pure-group'>
             <label class='color' for='level'>{{ $t('title.level') }}</label>
@@ -57,12 +56,15 @@
       </div>
       <!-- level -->
 
-      <!-- read me -->
-      <div class='pure-u-1-3 color' v-html='$t("message.readme")'></div>
-      <!-- read me -->
-
+      <span class='button-container'>
+        <button type='button' @click='update' class='pure-button confirm-button'>{{ $t('button.confirm') }}</button>
+        <span class='read-me'>任何输入信息都不会离开你的浏览器</span>
+        <span class='read-me sub-info'>Made by <a class='no-decoration' href='https://kyrieliu.cn'>@kyrieliu</a></span>
+        <span class='read-me sub-info'>Powered by <a class='no-decoration' href='https://github.com/soffes/Motivation'>Motivation</a></span>
+      </span>
     </div>
     <!-- input area end -->
+
 
   </vue-modal>
 </template>
@@ -126,6 +128,23 @@ export default {
   color: white;
 }
 
+.read-me {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  color: #cdcdcd;
+  letter-spacing: 1px;
+}
+
+.sub-info {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
 .title {
   color: white;
   text-align: center;
@@ -137,5 +156,23 @@ export default {
 
 .v--modal {
   background-color: #151513 !important;
+  top: 150px !important;
+  height: 400px !important;
+  padding: 0 10px !important;
+}
+
+.confirm-button-area {
+  border: 1px solid white;
+  width: 100%;
+  height: 50px;
+}
+
+.button-container {
+  text-align: center;
+  width: 100%;
+}
+
+.confirm-button {
+  width: 80%;
 }
 </style>

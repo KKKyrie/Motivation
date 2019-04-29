@@ -8,12 +8,12 @@ export default {
     light: '轻度压力',
     moderate: '适当恐慌',
     terrifying: '有点吓人',
-    wtf: '这啥？'
+    wtf: '慌的一批'
   },
   title: {
     motivation: 'Motivation',
     level: '级别',
-    date: '日期 (比如你的生日)'
+    date: '你的生日'
   },
   button: {
     confirm: '确认'

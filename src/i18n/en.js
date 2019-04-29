@@ -13,7 +13,7 @@ export default {
   title: {
     motivation: 'Motivation',
     level: 'Level',
-    date: 'Date (Like birthday)'
+    date: 'Your birthday'
   },
   button: {
     confirm: 'Confirm'
