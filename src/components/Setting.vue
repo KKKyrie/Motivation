@@ -60,7 +60,7 @@
         <button type='button' @click='update' class='pure-button confirm-button'>{{ $t('button.confirm') }}</button>
         <span class='read-me'>{{ $t('message.readme') }}</span>
         <span class='read-me sub-info'>Made by <a class='no-decoration' href='https://kyrieliu.cn'>@kyrieliu</a></span>
-        <span class='read-me sub-info'>Powered by <a class='no-decoration' href='https://github.com/soffes/Motivation'>Motivation</a></span>
+        <span class='read-me sub-info'>Powered by <a class='no-decoration' href='https://github.com/NeverBehave/Motivation'>NeverBehave</a></span>
       </span>
     </div>
     <!-- input area end -->
